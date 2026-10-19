@@ -1,61 +1,109 @@
-#include <painlessMesh.h>
+#include <ESP8266WiFi.h>
+#include <PubSubClient.h>
 #include <ArduinoJson.h>
+#include <DHT.h>
 
-#define MESH_PREFIX     "LabIoTMesh"
-#define MESH_PASSWORD   "iotmeshpassword"
-#define MESH_PORT       5555
+// Kredensial Jaringan Wi-Fi (Gunakan Hotspot Pribadi Anda)
+const char* ssid = "oiiu";
+const char* password = "22222229";
 
-#define LDR_PIN         A0      // Pin ADC A0 NodeMCU
+// Konfigurasi Broker MQTT Publik
+const char* mqttServer = "broker.hivemq.com";
+const int mqttPort = 1883;
 
-Scheduler userScheduler;
-painlessMesh mesh;
+// IDENTITAS KLIEN (Wajib Unik! Ganti dengan NIM Anda agar tidak bertabrakan)
+const char* clientId = "ESP8266_LabIoT_25782077";
 
-void sendMessage();
-Task taskSendMessage(TASK_SECOND * 3, TASK_FOREVER, &sendMessage);
+// Definisi Topik Publikasi Telemetri Mandiri
+const char* topicPubTelemetry = "kampus/labiot/25782077/telemetri";
 
-void sendMessage() {
-  int nilaiLDR = analogRead(LDR_PIN);
+// Konfigurasi Pin Sensor DHT
+const byte dhtPin = 2;   // Pin D4 (GPIO 2)
+#define DHTTYPE DHT22
 
-  // Kemas data ke format JSON sesuai spesifikasi tugas
-  StaticJsonDocument<200> doc;
-  doc["tipe"] = "cahaya_node";
-  doc["adc"] = nilaiLDR;
+DHT dht(dhtPin, DHTTYPE);
+WiFiClient espClient;
+PubSubClient client(espClient);
 
-  String msg;
-  serializeJson(doc, msg);
-  mesh.sendBroadcast(msg);
+unsigned long previousPublishTime = 0;
+const unsigned long publishInterval = 5000; // Interval pengiriman 5 detik
 
-  Serial.print("[KIRIM LDR] ");
-  Serial.println(msg);
+void connectToWiFi() {
+  Serial.print("Menghubungkan ke Wi-Fi: ");
+  Serial.println(ssid);
+  WiFi.mode(WIFI_STA);
+  WiFi.begin(ssid, password);
+
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+  }
+  Serial.println("\nWi-Fi Terkoneksi!");
+  Serial.print("Alamat IP Lokal: ");
+  Serial.println(WiFi.localIP());
 }
 
-void receivedCallback(uint32_t from, String &msg) {
-  // Opsional
-}
-
-void newConnectionCallback(uint32_t nodeId) {
-  Serial.printf("--> Koneksi Baru Terdeteksi! Node ID: %u\n", nodeId);
-}
-
-void changedConnectionCallback() {
-  Serial.println("--> Topologi mesh diperbarui");
+void reconnectMQTT() {
+  while (!client.connected()) {
+    Serial.print("Menghubungkan ke MQTT Broker...");
+    if (client.connect(clientId)) {
+      Serial.println(" Sukses Terhubung!");
+    } else {
+      Serial.print(" Gagal, kode status rc=");
+      Serial.print(client.state());
+      Serial.println(". Mencoba kembali dalam 5 detik...");
+      delay(5000);
+    }
+  }
 }
 
 void setup() {
   Serial.begin(115200);
+  dht.begin();
 
-  mesh.setDebugMsgTypes(ERROR | STARTUP);
-  mesh.init(MESH_PREFIX, MESH_PASSWORD, &userScheduler, MESH_PORT);
-  mesh.onReceive(&receivedCallback);
-  mesh.onNewConnection(&newConnectionCallback);
-  mesh.onChangedConnections(&changedConnectionCallback);
+  connectToWiFi();
 
-  userScheduler.addTask(taskSendMessage);
-  taskSendMessage.enable();
-
-  Serial.println("Node 2 (Sensor LDR) Siap!");
+  client.setServer(mqttServer, mqttPort);
 }
 
 void loop() {
-  mesh.update();
+  if (!client.connected()) {
+    reconnectMQTT();
+  }
+  client.loop(); // Memelihara sesi TCP dan keep-alive ping
+
+  unsigned long currentMillis = millis();
+  if (currentMillis - previousPublishTime >= publishInterval) {
+    previousPublishTime = currentMillis;
+
+    float t = dht.readTemperature();
+    float h = dht.readHumidity();
+
+    // Proteksi pembacaan sensor DHT
+    if (isnan(t) || isnan(h)) {
+      Serial.println("Peringatan: Gagal membaca data DHT!");
+      return;
+    }
+
+    // Alokasi dokumen JSON statis
+    StaticJsonDocument<256> doc;
+    doc["node_id"] = clientId;
+    doc["suhu"] = serialized(String(t, 2));       // Format desimal 2 angka di belakang koma
+    doc["kelembapan"] = serialized(String(h, 2));
+
+    // Serialisasi JSON ke dalam array buffer karakter
+    char jsonBuffer[256];
+    serializeJson(doc, jsonBuffer);
+
+    // Publikasi paket data ke Broker
+    bool isSuccess = client.publish(topicPubTelemetry, jsonBuffer);
+    if (isSuccess) {
+      Serial.print("Telemetri Terkirim [");
+      Serial.print(topicPubTelemetry);
+      Serial.print("]: ");
+      Serial.println(jsonBuffer);
+    } else {
+      Serial.println("Peringatan: Gagal memublikasikan paket!");
+    }
+  }
 }
