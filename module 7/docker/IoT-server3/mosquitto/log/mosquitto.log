@@ -1,0 +1,1206 @@
+1792998243: mosquitto version 2.1.2 starting
+1792998243: Config loaded from /mosquitto/config/mosquitto.conf.
+1792998243: Bridge support available.
+1792998243: Persistence support available.
+1792998243: TLS support available.
+1792998243: TLS-PSK support available.
+1792998243: Websockets support available.
+1792998243: Opening ipv4 listen socket on port 1883.
+1792998243: Opening ipv6 listen socket on port 1883.
+1792998243: Opening ipv4 listen socket on port 9001.
+1792998243: Opening ipv6 listen socket on port 9001.
+1792998243: mosquitto version 2.1.2 running
+1792998370: New connection from 172.21.0.1:53292 on port 1883.
+1792998370: New client connected from 172.21.0.1:53292 as ESP8266_LabIoT_25782077 (p4, c1, k60).
+1792998395: Client ESP8266_LabIoT_25782077 [172.21.0.1:53292] disconnected.
+1792998429: New connection from 172.21.0.1:46714 on port 1883.
+1792998429: New client connected from 172.21.0.1:46714 as ESP8266_LabIoT_25782077 (p4, c1, k60).
+1792998439: Client ESP8266_LabIoT_25782077 [172.21.0.1:46714] disconnected.
+1792998457: New connection from 172.21.0.1:50298 on port 1883.
+1792998457: New client connected from 172.21.0.1:50298 as mqtt-explorer-8e8a2818 (p4, c1, k60).
+1792999296: New connection from 172.21.0.3:59302 on port 1883.
+1792999296: New client connected from 172.21.0.3:59302 as noderede3418bb05f417fd6 (p4, c1, k60).
+1793000043: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793001844: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793005240: New connection from 172.21.0.1:55652 on port 1883.
+1793005240: New client connected from 172.21.0.1:55652 as ESP8266_Local_Node01 (p4, c1, k15).
+1793005292: Client ESP8266_Local_Node01 [172.21.0.1:55652] disconnected: exceeded timeout.
+1793005438: New connection from 172.21.0.1:56306 on port 1883.
+1793005438: New client connected from 172.21.0.1:56306 as ESP8266_Local_Node01 (p4, c1, k15).
+1793005457: Client ESP8266_Local_Node01 [172.21.0.1:56306] disconnected: connection closed by client.
+1793005469: New connection from 172.21.0.1:39768 on port 1883.
+1793005469: New client connected from 172.21.0.1:39768 as ESP8266_Local_Node01 (p4, c1, k15).
+1793005567: Client ESP8266_Local_Node01 [172.21.0.1:39768] disconnected: exceeded timeout.
+1793005570: New connection from 172.21.0.1:57014 on port 1883.
+1793005570: New client connected from 172.21.0.1:57014 as ESP8266_Local_Node01 (p4, c1, k15).
+1793005663: Client mqtt-explorer-8e8a2818 [172.21.0.1:50298] disconnected.
+1793005843: New connection from 172.21.0.1:47350 on port 1883.
+1793005843: New client connected from 172.21.0.1:47350 as mqtt-explorer-f1e4900a (p4, c1, k60).
+1793006171: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793006816: Client ESP8266_Local_Node01 [172.21.0.1:57014] disconnected: exceeded timeout.
+1793006826: New connection from 172.21.0.1:54088 on port 1883.
+1793006826: New client connected from 172.21.0.1:54088 as ESP8266_Local_Node01 (p4, c1, k15).
+1793006896: Client ESP8266_Local_Node01 [172.21.0.1:54088] disconnected: exceeded timeout.
+1793006897: New connection from 172.21.0.1:42040 on port 1883.
+1793006897: New client connected from 172.21.0.1:42040 as ESP8266_Local_Node01 (p4, c1, k15).
+1793007163: Client noderede3418bb05f417fd6 [172.21.0.3:59302] disconnected.
+1793007163: New connection from 172.21.0.3:56236 on port 1883.
+1793007163: New connection from 172.21.0.3:56244 on port 1883.
+1793007164: New client connected from 172.21.0.3:56236 as nodered7b5abc7ef343582d (p4, c1, k60).
+1793007164: New client connected from 172.21.0.3:56244 as nodered53be4217b5e113fb (p4, c1, k60).
+1793007662: Client nodered7b5abc7ef343582d [172.21.0.3:56236] disconnected.
+1793007662: Client nodered53be4217b5e113fb [172.21.0.3:56244] disconnected.
+1793007662: New connection from 172.21.0.3:41176 on port 1883.
+1793007662: New connection from 172.21.0.3:41192 on port 1883.
+1793007662: New client connected from 172.21.0.3:41176 as noderedc777175786b937b4 (p4, c1, k60).
+1793007662: New client connected from 172.21.0.3:41192 as nodered6b12ab780d7f9d76 (p4, c1, k60).
+1793007972: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793008717: Client noderedc777175786b937b4 [172.21.0.3:41176] disconnected.
+1793008717: Client nodered6b12ab780d7f9d76 [172.21.0.3:41192] disconnected.
+1793008717: New connection from 172.21.0.3:35236 on port 1883.
+1793008717: New connection from 172.21.0.3:35242 on port 1883.
+1793008717: New client connected from 172.21.0.3:35236 as nodered2ac3030561994263 (p4, c1, k60).
+1793008717: New client connected from 172.21.0.3:35242 as nodered8dd5d85a1f2c2e65 (p4, c1, k60).
+1793008958: Client nodered2ac3030561994263 [172.21.0.3:35236] disconnected.
+1793008958: Client nodered8dd5d85a1f2c2e65 [172.21.0.3:35242] disconnected.
+1793008958: New connection from 172.21.0.3:45868 on port 1883.
+1793008958: New connection from 172.21.0.3:45872 on port 1883.
+1793008958: New client connected from 172.21.0.3:45868 as nodered6b4f480e1ec9f7ae (p4, c1, k60).
+1793008958: New client connected from 172.21.0.3:45872 as nodered3220cfb07420af15 (p4, c1, k60).
+1793009160: Client nodered6b4f480e1ec9f7ae [172.21.0.3:45868] disconnected.
+1793009160: Client nodered3220cfb07420af15 [172.21.0.3:45872] disconnected.
+1793009160: New connection from 172.21.0.3:45804 on port 1883.
+1793009160: New connection from 172.21.0.3:45810 on port 1883.
+1793009160: New client connected from 172.21.0.3:45804 as nodereda02744aa65ee4ee9 (p4, c1, k60).
+1793009160: New client connected from 172.21.0.3:45810 as nodered973f31c7eda90cd9 (p4, c1, k60).
+1793009398: Client nodereda02744aa65ee4ee9 [172.21.0.3:45804] disconnected.
+1793009398: Client nodered973f31c7eda90cd9 [172.21.0.3:45810] disconnected.
+1793009398: New connection from 172.21.0.3:36450 on port 1883.
+1793009398: New connection from 172.21.0.3:36456 on port 1883.
+1793009398: New client connected from 172.21.0.3:36450 as noderedda487d5763950505 (p4, c1, k60).
+1793009398: New client connected from 172.21.0.3:36456 as nodered8181454d8ddd9383 (p4, c1, k60).
+1793009535: Client noderedda487d5763950505 [172.21.0.3:36450] disconnected.
+1793009535: Client nodered8181454d8ddd9383 [172.21.0.3:36456] disconnected.
+1793009535: New connection from 172.21.0.3:48884 on port 1883.
+1793009535: New connection from 172.21.0.3:48894 on port 1883.
+1793009535: New client connected from 172.21.0.3:48884 as noderedf7cba548c758789f (p4, c1, k60).
+1793009535: New client connected from 172.21.0.3:48894 as nodered764016cfdad7a607 (p4, c1, k60).
+1793009773: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793010505: Client ESP8266_Local_Node01 [172.21.0.1:42040] disconnected: exceeded timeout.
+1793022876: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793024004: Client noderedf7cba548c758789f [172.21.0.3:48884] disconnected.
+1793024004: Client nodered764016cfdad7a607 [172.21.0.3:48894] disconnected.
+1793024004: New connection from 172.21.0.3:52794 on port 1883.
+1793024004: New connection from 172.21.0.3:52806 on port 1883.
+1793024004: New client connected from 172.21.0.3:52794 as noderedcce58b912aac402b (p4, c1, k60).
+1793024004: New client connected from 172.21.0.3:52806 as nodered967732d8e217e61b (p4, c1, k60).
+1793024257: New connection from 172.21.0.1:37016 on port 1883.
+1793024257: New client connected from 172.21.0.1:37016 as ESP8266_Local_Node01 (p4, c1, k15).
+1793024676: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793025915: mosquitto version 2.1.2 terminating
+1793025915: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793025917: mosquitto version 2.1.2 starting
+1793025917: Config loaded from /mosquitto/config/mosquitto.conf.
+1793025917: Bridge support available.
+1793025917: Persistence support available.
+1793025917: TLS support available.
+1793025917: TLS-PSK support available.
+1793025917: Websockets support available.
+1793025917: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793025917: mosquitto version 2.1.2 terminating
+1793025917: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793025918: mosquitto version 2.1.2 starting
+1793025918: Config loaded from /mosquitto/config/mosquitto.conf.
+1793025918: Bridge support available.
+1793025918: Persistence support available.
+1793025918: TLS support available.
+1793025918: TLS-PSK support available.
+1793025918: Websockets support available.
+1793025918: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793025918: mosquitto version 2.1.2 terminating
+1793025918: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793025919: mosquitto version 2.1.2 starting
+1793025919: Config loaded from /mosquitto/config/mosquitto.conf.
+1793025919: Bridge support available.
+1793025919: Persistence support available.
+1793025919: TLS support available.
+1793025919: TLS-PSK support available.
+1793025919: Websockets support available.
+1793025919: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793025919: mosquitto version 2.1.2 terminating
+1793025919: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793025920: mosquitto version 2.1.2 starting
+1793025920: Config loaded from /mosquitto/config/mosquitto.conf.
+1793025920: Bridge support available.
+1793025920: Persistence support available.
+1793025920: TLS support available.
+1793025920: TLS-PSK support available.
+1793025920: Websockets support available.
+1793025920: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793025920: mosquitto version 2.1.2 terminating
+1793025920: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793025922: mosquitto version 2.1.2 starting
+1793025922: Config loaded from /mosquitto/config/mosquitto.conf.
+1793025922: Bridge support available.
+1793025922: Persistence support available.
+1793025922: TLS support available.
+1793025922: TLS-PSK support available.
+1793025922: Websockets support available.
+1793025922: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793025922: mosquitto version 2.1.2 terminating
+1793025922: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793025924: mosquitto version 2.1.2 starting
+1793025924: Config loaded from /mosquitto/config/mosquitto.conf.
+1793025924: Bridge support available.
+1793025924: Persistence support available.
+1793025924: TLS support available.
+1793025924: TLS-PSK support available.
+1793025924: Websockets support available.
+1793025924: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793025924: mosquitto version 2.1.2 terminating
+1793025924: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793025928: mosquitto version 2.1.2 starting
+1793025928: Config loaded from /mosquitto/config/mosquitto.conf.
+1793025928: Bridge support available.
+1793025928: Persistence support available.
+1793025928: TLS support available.
+1793025928: TLS-PSK support available.
+1793025928: Websockets support available.
+1793025928: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793025928: mosquitto version 2.1.2 terminating
+1793025928: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793025935: mosquitto version 2.1.2 starting
+1793025935: Config loaded from /mosquitto/config/mosquitto.conf.
+1793025935: Bridge support available.
+1793025935: Persistence support available.
+1793025935: TLS support available.
+1793025935: TLS-PSK support available.
+1793025935: Websockets support available.
+1793025935: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793025935: mosquitto version 2.1.2 terminating
+1793025935: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793025948: mosquitto version 2.1.2 starting
+1793025948: Config loaded from /mosquitto/config/mosquitto.conf.
+1793025948: Bridge support available.
+1793025948: Persistence support available.
+1793025948: TLS support available.
+1793025948: TLS-PSK support available.
+1793025948: Websockets support available.
+1793025948: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793025948: mosquitto version 2.1.2 terminating
+1793025948: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793025974: mosquitto version 2.1.2 starting
+1793025974: Config loaded from /mosquitto/config/mosquitto.conf.
+1793025974: Bridge support available.
+1793025974: Persistence support available.
+1793025974: TLS support available.
+1793025974: TLS-PSK support available.
+1793025974: Websockets support available.
+1793025974: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793025974: mosquitto version 2.1.2 terminating
+1793025974: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793026026: mosquitto version 2.1.2 starting
+1793026026: Config loaded from /mosquitto/config/mosquitto.conf.
+1793026026: Bridge support available.
+1793026026: Persistence support available.
+1793026026: TLS support available.
+1793026026: TLS-PSK support available.
+1793026026: Websockets support available.
+1793026026: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793026026: mosquitto version 2.1.2 terminating
+1793026026: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793026087: mosquitto version 2.1.2 starting
+1793026087: Config loaded from /mosquitto/config/mosquitto.conf.
+1793026087: Bridge support available.
+1793026087: Persistence support available.
+1793026087: TLS support available.
+1793026087: TLS-PSK support available.
+1793026087: Websockets support available.
+1793026087: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793026087: mosquitto version 2.1.2 terminating
+1793026087: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793026148: mosquitto version 2.1.2 starting
+1793026148: Config loaded from /mosquitto/config/mosquitto.conf.
+1793026148: Bridge support available.
+1793026148: Persistence support available.
+1793026148: TLS support available.
+1793026148: TLS-PSK support available.
+1793026148: Websockets support available.
+1793026148: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793026148: mosquitto version 2.1.2 terminating
+1793026148: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793026209: mosquitto version 2.1.2 starting
+1793026209: Config loaded from /mosquitto/config/mosquitto.conf.
+1793026209: Bridge support available.
+1793026209: Persistence support available.
+1793026209: TLS support available.
+1793026209: TLS-PSK support available.
+1793026209: Websockets support available.
+1793026209: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793026209: mosquitto version 2.1.2 terminating
+1793026209: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793026269: mosquitto version 2.1.2 starting
+1793026269: Config loaded from /mosquitto/config/mosquitto.conf.
+1793026269: Bridge support available.
+1793026269: Persistence support available.
+1793026269: TLS support available.
+1793026269: TLS-PSK support available.
+1793026269: Websockets support available.
+1793026269: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793026269: mosquitto version 2.1.2 terminating
+1793026269: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793026330: mosquitto version 2.1.2 starting
+1793026330: Config loaded from /mosquitto/config/mosquitto.conf.
+1793026330: Bridge support available.
+1793026330: Persistence support available.
+1793026330: TLS support available.
+1793026330: TLS-PSK support available.
+1793026330: Websockets support available.
+1793026330: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793026330: mosquitto version 2.1.2 terminating
+1793026330: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793026391: mosquitto version 2.1.2 starting
+1793026391: Config loaded from /mosquitto/config/mosquitto.conf.
+1793026391: Bridge support available.
+1793026391: Persistence support available.
+1793026391: TLS support available.
+1793026391: TLS-PSK support available.
+1793026391: Websockets support available.
+1793026391: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793026391: mosquitto version 2.1.2 terminating
+1793026391: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793026451: mosquitto version 2.1.2 starting
+1793026451: Config loaded from /mosquitto/config/mosquitto.conf.
+1793026451: Bridge support available.
+1793026451: Persistence support available.
+1793026451: TLS support available.
+1793026451: TLS-PSK support available.
+1793026451: Websockets support available.
+1793026451: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793026451: mosquitto version 2.1.2 terminating
+1793026451: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793026512: mosquitto version 2.1.2 starting
+1793026512: Config loaded from /mosquitto/config/mosquitto.conf.
+1793026512: Bridge support available.
+1793026512: Persistence support available.
+1793026512: TLS support available.
+1793026512: TLS-PSK support available.
+1793026512: Websockets support available.
+1793026512: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793026512: mosquitto version 2.1.2 terminating
+1793026512: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793026573: mosquitto version 2.1.2 starting
+1793026573: Config loaded from /mosquitto/config/mosquitto.conf.
+1793026573: Bridge support available.
+1793026573: Persistence support available.
+1793026573: TLS support available.
+1793026573: TLS-PSK support available.
+1793026573: Websockets support available.
+1793026573: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793026573: mosquitto version 2.1.2 terminating
+1793026573: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793026633: mosquitto version 2.1.2 starting
+1793026633: Config loaded from /mosquitto/config/mosquitto.conf.
+1793026633: Bridge support available.
+1793026633: Persistence support available.
+1793026633: TLS support available.
+1793026633: TLS-PSK support available.
+1793026633: Websockets support available.
+1793026633: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793026633: mosquitto version 2.1.2 terminating
+1793026633: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793026694: mosquitto version 2.1.2 starting
+1793026694: Config loaded from /mosquitto/config/mosquitto.conf.
+1793026694: Bridge support available.
+1793026694: Persistence support available.
+1793026694: TLS support available.
+1793026694: TLS-PSK support available.
+1793026694: Websockets support available.
+1793026694: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793026694: mosquitto version 2.1.2 terminating
+1793026694: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793026746: mosquitto version 2.1.2 starting
+1793026746: Config loaded from /mosquitto/config/mosquitto.conf.
+1793026746: Bridge support available.
+1793026746: Persistence support available.
+1793026746: TLS support available.
+1793026746: TLS-PSK support available.
+1793026746: Websockets support available.
+1793026746: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793026746: mosquitto version 2.1.2 terminating
+1793026746: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793026747: mosquitto version 2.1.2 starting
+1793026747: Config loaded from /mosquitto/config/mosquitto.conf.
+1793026747: Bridge support available.
+1793026747: Persistence support available.
+1793026747: TLS support available.
+1793026747: TLS-PSK support available.
+1793026747: Websockets support available.
+1793026747: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793026747: mosquitto version 2.1.2 terminating
+1793026747: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793026748: mosquitto version 2.1.2 starting
+1793026748: Config loaded from /mosquitto/config/mosquitto.conf.
+1793026748: Bridge support available.
+1793026748: Persistence support available.
+1793026748: TLS support available.
+1793026748: TLS-PSK support available.
+1793026748: Websockets support available.
+1793026748: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793026748: mosquitto version 2.1.2 terminating
+1793026748: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793026749: mosquitto version 2.1.2 starting
+1793026749: Config loaded from /mosquitto/config/mosquitto.conf.
+1793026749: Bridge support available.
+1793026749: Persistence support available.
+1793026749: TLS support available.
+1793026749: TLS-PSK support available.
+1793026749: Websockets support available.
+1793026749: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793026749: mosquitto version 2.1.2 terminating
+1793026749: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793026750: mosquitto version 2.1.2 starting
+1793026750: Config loaded from /mosquitto/config/mosquitto.conf.
+1793026750: Bridge support available.
+1793026750: Persistence support available.
+1793026750: TLS support available.
+1793026750: TLS-PSK support available.
+1793026750: Websockets support available.
+1793026750: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793026750: mosquitto version 2.1.2 terminating
+1793026750: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793026753: mosquitto version 2.1.2 starting
+1793026753: Config loaded from /mosquitto/config/mosquitto.conf.
+1793026753: Bridge support available.
+1793026753: Persistence support available.
+1793026753: TLS support available.
+1793026753: TLS-PSK support available.
+1793026753: Websockets support available.
+1793026753: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793026753: mosquitto version 2.1.2 terminating
+1793026753: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793026756: mosquitto version 2.1.2 starting
+1793026756: Config loaded from /mosquitto/config/mosquitto.conf.
+1793026756: Bridge support available.
+1793026756: Persistence support available.
+1793026756: TLS support available.
+1793026756: TLS-PSK support available.
+1793026756: Websockets support available.
+1793026756: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793026756: mosquitto version 2.1.2 terminating
+1793026756: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793026764: mosquitto version 2.1.2 starting
+1793026764: Config loaded from /mosquitto/config/mosquitto.conf.
+1793026764: Bridge support available.
+1793026764: Persistence support available.
+1793026764: TLS support available.
+1793026764: TLS-PSK support available.
+1793026764: Websockets support available.
+1793026764: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793026764: mosquitto version 2.1.2 terminating
+1793026764: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793026777: mosquitto version 2.1.2 starting
+1793026777: Config loaded from /mosquitto/config/mosquitto.conf.
+1793026777: Bridge support available.
+1793026777: Persistence support available.
+1793026777: TLS support available.
+1793026777: TLS-PSK support available.
+1793026777: Websockets support available.
+1793026777: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793026777: mosquitto version 2.1.2 terminating
+1793026777: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793026803: mosquitto version 2.1.2 starting
+1793026803: Config loaded from /mosquitto/config/mosquitto.conf.
+1793026803: Bridge support available.
+1793026803: Persistence support available.
+1793026803: TLS support available.
+1793026803: TLS-PSK support available.
+1793026803: Websockets support available.
+1793026803: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793026803: mosquitto version 2.1.2 terminating
+1793026803: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793026855: mosquitto version 2.1.2 starting
+1793026855: Config loaded from /mosquitto/config/mosquitto.conf.
+1793026855: Bridge support available.
+1793026855: Persistence support available.
+1793026855: TLS support available.
+1793026855: TLS-PSK support available.
+1793026855: Websockets support available.
+1793026855: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793026855: mosquitto version 2.1.2 terminating
+1793026855: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793026887: mosquitto version 2.1.2 starting
+1793026887: Config loaded from /mosquitto/config/mosquitto.conf.
+1793026887: Bridge support available.
+1793026887: Persistence support available.
+1793026887: TLS support available.
+1793026887: TLS-PSK support available.
+1793026887: Websockets support available.
+1793026887: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793026887: mosquitto version 2.1.2 terminating
+1793026887: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793026888: mosquitto version 2.1.2 starting
+1793026888: Config loaded from /mosquitto/config/mosquitto.conf.
+1793026888: Bridge support available.
+1793026888: Persistence support available.
+1793026888: TLS support available.
+1793026888: TLS-PSK support available.
+1793026888: Websockets support available.
+1793026888: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793026888: mosquitto version 2.1.2 terminating
+1793026888: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793026889: mosquitto version 2.1.2 starting
+1793026889: Config loaded from /mosquitto/config/mosquitto.conf.
+1793026889: Bridge support available.
+1793026889: Persistence support available.
+1793026889: TLS support available.
+1793026889: TLS-PSK support available.
+1793026889: Websockets support available.
+1793026889: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793026889: mosquitto version 2.1.2 terminating
+1793026889: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793026890: mosquitto version 2.1.2 starting
+1793026890: Config loaded from /mosquitto/config/mosquitto.conf.
+1793026890: Bridge support available.
+1793026890: Persistence support available.
+1793026890: TLS support available.
+1793026890: TLS-PSK support available.
+1793026890: Websockets support available.
+1793026890: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793026890: mosquitto version 2.1.2 terminating
+1793026890: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793026891: mosquitto version 2.1.2 starting
+1793026891: Config loaded from /mosquitto/config/mosquitto.conf.
+1793026891: Bridge support available.
+1793026891: Persistence support available.
+1793026891: TLS support available.
+1793026891: TLS-PSK support available.
+1793026891: Websockets support available.
+1793026891: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793026891: mosquitto version 2.1.2 terminating
+1793026891: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793026894: mosquitto version 2.1.2 starting
+1793026894: Config loaded from /mosquitto/config/mosquitto.conf.
+1793026894: Bridge support available.
+1793026894: Persistence support available.
+1793026894: TLS support available.
+1793026894: TLS-PSK support available.
+1793026894: Websockets support available.
+1793026894: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793026894: mosquitto version 2.1.2 terminating
+1793026894: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793026897: mosquitto version 2.1.2 starting
+1793026897: Config loaded from /mosquitto/config/mosquitto.conf.
+1793026897: Bridge support available.
+1793026897: Persistence support available.
+1793026897: TLS support available.
+1793026897: TLS-PSK support available.
+1793026897: Websockets support available.
+1793026897: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793026897: mosquitto version 2.1.2 terminating
+1793026897: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793026905: mosquitto version 2.1.2 starting
+1793026905: Config loaded from /mosquitto/config/mosquitto.conf.
+1793026905: Bridge support available.
+1793026905: Persistence support available.
+1793026905: TLS support available.
+1793026905: TLS-PSK support available.
+1793026905: Websockets support available.
+1793026905: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793026905: mosquitto version 2.1.2 terminating
+1793026905: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793026918: mosquitto version 2.1.2 starting
+1793026918: Config loaded from /mosquitto/config/mosquitto.conf.
+1793026918: Bridge support available.
+1793026918: Persistence support available.
+1793026918: TLS support available.
+1793026918: TLS-PSK support available.
+1793026918: Websockets support available.
+1793026918: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793026918: mosquitto version 2.1.2 terminating
+1793026918: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793026944: mosquitto version 2.1.2 starting
+1793026944: Config loaded from /mosquitto/config/mosquitto.conf.
+1793026944: Bridge support available.
+1793026944: Persistence support available.
+1793026944: TLS support available.
+1793026944: TLS-PSK support available.
+1793026944: Websockets support available.
+1793026944: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793026944: mosquitto version 2.1.2 terminating
+1793026944: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793026996: mosquitto version 2.1.2 starting
+1793026996: Config loaded from /mosquitto/config/mosquitto.conf.
+1793026996: Bridge support available.
+1793026996: Persistence support available.
+1793026996: TLS support available.
+1793026996: TLS-PSK support available.
+1793026996: Websockets support available.
+1793026996: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793026996: mosquitto version 2.1.2 terminating
+1793026996: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793027057: mosquitto version 2.1.2 starting
+1793027057: Config loaded from /mosquitto/config/mosquitto.conf.
+1793027057: Bridge support available.
+1793027057: Persistence support available.
+1793027057: TLS support available.
+1793027057: TLS-PSK support available.
+1793027057: Websockets support available.
+1793027057: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793027057: mosquitto version 2.1.2 terminating
+1793027057: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793027118: mosquitto version 2.1.2 starting
+1793027118: Config loaded from /mosquitto/config/mosquitto.conf.
+1793027118: Bridge support available.
+1793027118: Persistence support available.
+1793027118: TLS support available.
+1793027118: TLS-PSK support available.
+1793027118: Websockets support available.
+1793027118: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793027118: mosquitto version 2.1.2 terminating
+1793027118: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793027253: mosquitto version 2.1.2 starting
+1793027253: Config loaded from /mosquitto/config/mosquitto.conf.
+1793027253: Bridge support available.
+1793027253: Persistence support available.
+1793027253: TLS support available.
+1793027253: TLS-PSK support available.
+1793027253: Websockets support available.
+1793027253: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793027253: mosquitto version 2.1.2 terminating
+1793027253: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793027282: mosquitto version 2.1.2 starting
+1793027282: Config loaded from /mosquitto/config/mosquitto.conf.
+1793027282: Bridge support available.
+1793027282: Persistence support available.
+1793027282: TLS support available.
+1793027282: TLS-PSK support available.
+1793027282: Websockets support available.
+1793027282: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793027282: mosquitto version 2.1.2 terminating
+1793027282: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793027285: mosquitto version 2.1.2 starting
+1793027285: Config loaded from /mosquitto/config/mosquitto.conf.
+1793027285: Bridge support available.
+1793027285: Persistence support available.
+1793027285: TLS support available.
+1793027285: TLS-PSK support available.
+1793027285: Websockets support available.
+1793027285: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793027285: mosquitto version 2.1.2 terminating
+1793027285: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793027314: mosquitto version 2.1.2 starting
+1793027314: Config loaded from /mosquitto/config/mosquitto.conf.
+1793027314: Bridge support available.
+1793027314: Persistence support available.
+1793027314: TLS support available.
+1793027314: TLS-PSK support available.
+1793027314: Websockets support available.
+1793027314: Opening ipv4 listen socket on port 1883.
+1793027314: Opening ipv6 listen socket on port 1883.
+1793027314: Opening ipv4 listen socket on port 9001.
+1793027314: Opening ipv6 listen socket on port 9001.
+1793027314: mosquitto version 2.1.2 running
+1793027315: New connection from 172.21.0.1:56608 on port 1883.
+1793027315: New client connected from 172.21.0.1:56608 as mqtt-explorer-f1e4900a (p4, c1, k60).
+1793027316: New connection from 172.21.0.1:56616 on port 1883.
+1793027316: New client connected from 172.21.0.1:56616 as ESP8266_Local_Node01 (p4, c1, k15).
+1793027317: New connection from 172.21.0.3:47792 on port 1883.
+1793027317: New client connected from 172.21.0.3:47792 as nodered967732d8e217e61b (p4, c1, k60).
+1793027318: New connection from 172.21.0.3:47798 on port 1883.
+1793027318: New client connected from 172.21.0.3:47798 as noderedcce58b912aac402b (p4, c1, k60).
+1793027555: mosquitto version 2.1.2 terminating
+1793027555: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793027556: mosquitto version 2.1.2 starting
+1793027556: Config loaded from /mosquitto/config/mosquitto.conf.
+1793027556: Bridge support available.
+1793027556: Persistence support available.
+1793027556: TLS support available.
+1793027556: TLS-PSK support available.
+1793027556: Websockets support available.
+1793027556: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793027556: mosquitto version 2.1.2 terminating
+1793027556: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793027579: mosquitto version 2.1.2 starting
+1793027579: Config loaded from /mosquitto/config/mosquitto.conf.
+1793027579: Bridge support available.
+1793027579: Persistence support available.
+1793027579: TLS support available.
+1793027579: TLS-PSK support available.
+1793027579: Websockets support available.
+1793027579: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793027579: mosquitto version 2.1.2 terminating
+1793027579: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793027666: mosquitto version 2.1.2 starting
+1793027666: Config loaded from /mosquitto/config/mosquitto.conf.
+1793027666: Bridge support available.
+1793027666: Persistence support available.
+1793027666: TLS support available.
+1793027666: TLS-PSK support available.
+1793027666: Websockets support available.
+1793027666: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793027666: mosquitto version 2.1.2 terminating
+1793027666: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793028018: mosquitto version 2.1.2 starting
+1793028018: Config loaded from /mosquitto/config/mosquitto.conf.
+1793028018: Bridge support available.
+1793028018: Persistence support available.
+1793028018: TLS support available.
+1793028018: TLS-PSK support available.
+1793028018: Websockets support available.
+1793028018: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793028018: mosquitto version 2.1.2 terminating
+1793028018: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793028060: mosquitto version 2.1.2 starting
+1793028060: Config loaded from /mosquitto/config/mosquitto.conf.
+1793028060: Bridge support available.
+1793028060: Persistence support available.
+1793028060: TLS support available.
+1793028060: TLS-PSK support available.
+1793028060: Websockets support available.
+1793028060: password-file: Error: Unable to open pwfile "/mosquitto/config/password.txt".
+1793028060: mosquitto version 2.1.2 terminating
+1793028060: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793028373: mosquitto version 2.1.2 starting
+1793028373: Config loaded from /mosquitto/config/mosquitto.conf.
+1793028373: Bridge support available.
+1793028373: Persistence support available.
+1793028373: TLS support available.
+1793028373: TLS-PSK support available.
+1793028373: Websockets support available.
+1793028373: Warning: File /mosquitto/config/password.txt has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password.txt`.
+
+1793028373: Warning: File /mosquitto/config/password.txt owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /mosquitto/config/password.txt`.
+
+1793028373: Warning: File /mosquitto/config/password.txt group is not mosquitto. Future versions will refuse to load this file.
+
+1793028373: Plugin builtin-security has registered to receive 'basic-auth' events.
+1793028373: Opening ipv4 listen socket on port 1883.
+1793028373: Opening ipv6 listen socket on port 1883.
+1793028373: Opening ipv4 listen socket on port 9001.
+1793028373: Opening ipv6 listen socket on port 9001.
+1793028373: mosquitto version 2.1.2 running
+1793028373: New connection from 172.21.0.1:59506 on port 1883.
+1793028373: Client mqtt-explorer-f1e4900a [172.21.0.1:59506] disconnected: not authorised.
+1793028376: New connection from 172.21.0.1:59516 on port 1883.
+1793028376: New client connected from 172.21.0.1:59516 as ESP8266_Local_Node01 (p4, c1, k15, u'admin').
+1793028388: New connection from 172.21.0.3:38166 on port 1883.
+1793028388: Client noderedcce58b912aac402b [172.21.0.3:38166] disconnected: not authorised.
+1793028388: New connection from 172.21.0.3:38182 on port 1883.
+1793028388: Client nodered967732d8e217e61b [172.21.0.3:38182] disconnected: not authorised.
+1793028403: New connection from 172.21.0.3:51784 on port 1883.
+1793028403: Client noderedcce58b912aac402b [172.21.0.3:51784] disconnected: not authorised.
+1793028403: New connection from 172.21.0.3:51800 on port 1883.
+1793028403: Client nodered967732d8e217e61b [172.21.0.3:51800] disconnected: not authorised.
+1793028418: New connection from 172.21.0.3:53318 on port 1883.
+1793028418: New connection from 172.21.0.3:53322 on port 1883.
+1793028418: Client noderedcce58b912aac402b [172.21.0.3:53318] disconnected: not authorised.
+1793028418: Client nodered967732d8e217e61b [172.21.0.3:53322] disconnected: not authorised.
+1793028433: New connection from 172.21.0.3:51596 on port 1883.
+1793028433: New connection from 172.21.0.3:51604 on port 1883.
+1793028433: Client noderedcce58b912aac402b [172.21.0.3:51596] disconnected: not authorised.
+1793028433: Client nodered967732d8e217e61b [172.21.0.3:51604] disconnected: not authorised.
+1793028448: New connection from 172.21.0.3:41202 on port 1883.
+1793028448: Client noderedcce58b912aac402b [172.21.0.3:41202] disconnected: not authorised.
+1793028448: New connection from 172.21.0.3:41210 on port 1883.
+1793028448: Client nodered967732d8e217e61b [172.21.0.3:41210] disconnected: not authorised.
+1793028463: New connection from 172.21.0.3:59014 on port 1883.
+1793028463: New connection from 172.21.0.3:59028 on port 1883.
+1793028464: Client noderedcce58b912aac402b [172.21.0.3:59014] disconnected: not authorised.
+1793028464: Client nodered967732d8e217e61b [172.21.0.3:59028] disconnected: not authorised.
+1793028479: New connection from 172.21.0.3:36836 on port 1883.
+1793028479: New connection from 172.21.0.3:36850 on port 1883.
+1793028479: Client nodered967732d8e217e61b [172.21.0.3:36836] disconnected: not authorised.
+1793028479: Client noderedcce58b912aac402b [172.21.0.3:36850] disconnected: not authorised.
+1793028494: New connection from 172.21.0.3:47128 on port 1883.
+1793028494: New connection from 172.21.0.3:47132 on port 1883.
+1793028494: Client nodered967732d8e217e61b [172.21.0.3:47128] disconnected: not authorised.
+1793028494: Client noderedcce58b912aac402b [172.21.0.3:47132] disconnected: not authorised.
+1793028509: New connection from 172.21.0.3:46236 on port 1883.
+1793028509: Client nodered967732d8e217e61b [172.21.0.3:46236] disconnected: not authorised.
+1793028509: New connection from 172.21.0.3:46250 on port 1883.
+1793028509: Client noderedcce58b912aac402b [172.21.0.3:46250] disconnected: not authorised.
+1793028524: New connection from 172.21.0.3:37554 on port 1883.
+1793028524: Client nodered967732d8e217e61b [172.21.0.3:37554] disconnected: not authorised.
+1793028524: New connection from 172.21.0.3:37560 on port 1883.
+1793028524: Client noderedcce58b912aac402b [172.21.0.3:37560] disconnected: not authorised.
+1793028539: New connection from 172.21.0.3:38854 on port 1883.
+1793028539: Client nodered967732d8e217e61b [172.21.0.3:38854] disconnected: not authorised.
+1793028539: New connection from 172.21.0.3:38862 on port 1883.
+1793028539: Client noderedcce58b912aac402b [172.21.0.3:38862] disconnected: not authorised.
+1793028554: New connection from 172.21.0.3:35700 on port 1883.
+1793028554: Client nodered967732d8e217e61b [172.21.0.3:35700] disconnected: not authorised.
+1793028554: New connection from 172.21.0.3:35702 on port 1883.
+1793028554: Client noderedcce58b912aac402b [172.21.0.3:35702] disconnected: not authorised.
+1793028569: New connection from 172.21.0.3:55478 on port 1883.
+1793028569: New connection from 172.21.0.3:55482 on port 1883.
+1793028569: Client nodered967732d8e217e61b [172.21.0.3:55478] disconnected: not authorised.
+1793028569: Client noderedcce58b912aac402b [172.21.0.3:55482] disconnected: not authorised.
+1793028584: New connection from 172.21.0.3:43886 on port 1883.
+1793028584: New connection from 172.21.0.3:43898 on port 1883.
+1793028584: Client nodered967732d8e217e61b [172.21.0.3:43886] disconnected: not authorised.
+1793028584: Client noderedcce58b912aac402b [172.21.0.3:43898] disconnected: not authorised.
+1793028599: New connection from 172.21.0.3:39892 on port 1883.
+1793028599: New connection from 172.21.0.3:39900 on port 1883.
+1793028599: Client nodered967732d8e217e61b [172.21.0.3:39892] disconnected: not authorised.
+1793028599: Client noderedcce58b912aac402b [172.21.0.3:39900] disconnected: not authorised.
+1793028614: New connection from 172.21.0.3:42034 on port 1883.
+1793028614: New connection from 172.21.0.3:42038 on port 1883.
+1793028614: Client nodered967732d8e217e61b [172.21.0.3:42034] disconnected: not authorised.
+1793028614: Client noderedcce58b912aac402b [172.21.0.3:42038] disconnected: not authorised.
+1793028629: New connection from 172.21.0.3:50142 on port 1883.
+1793028629: Client nodered967732d8e217e61b [172.21.0.3:50142] disconnected: not authorised.
+1793028629: New connection from 172.21.0.3:50144 on port 1883.
+1793028629: Client noderedcce58b912aac402b [172.21.0.3:50144] disconnected: not authorised.
+1793028644: New connection from 172.21.0.3:41302 on port 1883.
+1793028644: Client nodered967732d8e217e61b [172.21.0.3:41302] disconnected: not authorised.
+1793028644: New connection from 172.21.0.3:41304 on port 1883.
+1793028644: Client noderedcce58b912aac402b [172.21.0.3:41304] disconnected: not authorised.
+1793028659: New connection from 172.21.0.3:34246 on port 1883.
+1793028659: Client nodered967732d8e217e61b [172.21.0.3:34246] disconnected: not authorised.
+1793028659: New connection from 172.21.0.3:34258 on port 1883.
+1793028659: Client noderedcce58b912aac402b [172.21.0.3:34258] disconnected: not authorised.
+1793028674: New connection from 172.21.0.3:40066 on port 1883.
+1793028674: New connection from 172.21.0.3:40070 on port 1883.
+1793028674: Client nodered967732d8e217e61b [172.21.0.3:40066] disconnected: not authorised.
+1793028674: Client noderedcce58b912aac402b [172.21.0.3:40070] disconnected: not authorised.
+1793028689: New connection from 172.21.0.3:35098 on port 1883.
+1793028689: New connection from 172.21.0.3:35104 on port 1883.
+1793028689: Client noderedcce58b912aac402b [172.21.0.3:35098] disconnected: not authorised.
+1793028689: Client nodered967732d8e217e61b [172.21.0.3:35104] disconnected: not authorised.
+1793028704: New connection from 172.21.0.3:46592 on port 1883.
+1793028704: New connection from 172.21.0.3:46606 on port 1883.
+1793028704: Client nodered967732d8e217e61b [172.21.0.3:46592] disconnected: not authorised.
+1793028704: Client noderedcce58b912aac402b [172.21.0.3:46606] disconnected: not authorised.
+1793028719: New connection from 172.21.0.3:52492 on port 1883.
+1793028719: New connection from 172.21.0.3:52494 on port 1883.
+1793028719: Client nodered967732d8e217e61b [172.21.0.3:52492] disconnected: not authorised.
+1793028719: Client noderedcce58b912aac402b [172.21.0.3:52494] disconnected: not authorised.
+1793028734: New connection from 172.21.0.3:40458 on port 1883.
+1793028734: New connection from 172.21.0.3:40462 on port 1883.
+1793028734: Client nodered967732d8e217e61b [172.21.0.3:40458] disconnected: not authorised.
+1793028734: Client noderedcce58b912aac402b [172.21.0.3:40462] disconnected: not authorised.
+1793028749: New connection from 172.21.0.3:34014 on port 1883.
+1793028749: New connection from 172.21.0.3:34028 on port 1883.
+1793028749: Client nodered967732d8e217e61b [172.21.0.3:34014] disconnected: not authorised.
+1793028749: Client noderedcce58b912aac402b [172.21.0.3:34028] disconnected: not authorised.
+1793028764: New connection from 172.21.0.3:34746 on port 1883.
+1793028764: Client nodered967732d8e217e61b [172.21.0.3:34746] disconnected: not authorised.
+1793028764: New connection from 172.21.0.3:34748 on port 1883.
+1793028764: Client noderedcce58b912aac402b [172.21.0.3:34748] disconnected: not authorised.
+1793028779: New connection from 172.21.0.3:40294 on port 1883.
+1793028779: New connection from 172.21.0.3:40306 on port 1883.
+1793028779: Client nodered967732d8e217e61b [172.21.0.3:40294] disconnected: not authorised.
+1793028779: Client noderedcce58b912aac402b [172.21.0.3:40306] disconnected: not authorised.
+1793028794: New connection from 172.21.0.3:47272 on port 1883.
+1793028794: New connection from 172.21.0.3:47286 on port 1883.
+1793028794: Client nodered967732d8e217e61b [172.21.0.3:47272] disconnected: not authorised.
+1793028794: Client noderedcce58b912aac402b [172.21.0.3:47286] disconnected: not authorised.
+1793028809: New connection from 172.21.0.3:56538 on port 1883.
+1793028809: New connection from 172.21.0.3:56542 on port 1883.
+1793028809: Client nodered967732d8e217e61b [172.21.0.3:56538] disconnected: not authorised.
+1793028809: Client noderedcce58b912aac402b [172.21.0.3:56542] disconnected: not authorised.
+1793028824: New connection from 172.21.0.3:57138 on port 1883.
+1793028824: Client nodered967732d8e217e61b [172.21.0.3:57138] disconnected: not authorised.
+1793028824: New connection from 172.21.0.3:57144 on port 1883.
+1793028824: Client noderedcce58b912aac402b [172.21.0.3:57144] disconnected: not authorised.
+1793028839: New connection from 172.21.0.3:35592 on port 1883.
+1793028839: New connection from 172.21.0.3:35594 on port 1883.
+1793028839: Client noderedcce58b912aac402b [172.21.0.3:35592] disconnected: not authorised.
+1793028839: Client nodered967732d8e217e61b [172.21.0.3:35594] disconnected: not authorised.
+1793028854: New connection from 172.21.0.3:59178 on port 1883.
+1793028854: New connection from 172.21.0.3:59182 on port 1883.
+1793028854: Client noderedcce58b912aac402b [172.21.0.3:59178] disconnected: not authorised.
+1793028854: Client nodered967732d8e217e61b [172.21.0.3:59182] disconnected: not authorised.
+1793028869: New connection from 172.21.0.3:36968 on port 1883.
+1793028869: New connection from 172.21.0.3:36978 on port 1883.
+1793028869: Client noderedcce58b912aac402b [172.21.0.3:36968] disconnected: not authorised.
+1793028869: Client nodered967732d8e217e61b [172.21.0.3:36978] disconnected: not authorised.
+1793028884: New connection from 172.21.0.3:51618 on port 1883.
+1793028884: New connection from 172.21.0.3:51628 on port 1883.
+1793028884: Client noderedcce58b912aac402b [172.21.0.3:51618] disconnected: not authorised.
+1793028884: Client nodered967732d8e217e61b [172.21.0.3:51628] disconnected: not authorised.
+1793028899: New connection from 172.21.0.3:53540 on port 1883.
+1793028899: New connection from 172.21.0.3:53542 on port 1883.
+1793028899: Client noderedcce58b912aac402b [172.21.0.3:53540] disconnected: not authorised.
+1793028899: Client nodered967732d8e217e61b [172.21.0.3:53542] disconnected: not authorised.
+1793028914: New connection from 172.21.0.3:33088 on port 1883.
+1793028914: Client noderedcce58b912aac402b [172.21.0.3:33088] disconnected: not authorised.
+1793028914: New connection from 172.21.0.3:33098 on port 1883.
+1793028914: Client nodered967732d8e217e61b [172.21.0.3:33098] disconnected: not authorised.
+1793028929: New connection from 172.21.0.3:54066 on port 1883.
+1793028929: Client noderedcce58b912aac402b [172.21.0.3:54066] disconnected: not authorised.
+1793028929: New connection from 172.21.0.3:54072 on port 1883.
+1793028929: Client nodered967732d8e217e61b [172.21.0.3:54072] disconnected: not authorised.
+1793028944: New connection from 172.21.0.3:47120 on port 1883.
+1793028944: New connection from 172.21.0.3:47122 on port 1883.
+1793028944: Client noderedcce58b912aac402b [172.21.0.3:47120] disconnected: not authorised.
+1793028944: Client nodered967732d8e217e61b [172.21.0.3:47122] disconnected: not authorised.
+1793028959: New connection from 172.21.0.3:50526 on port 1883.
+1793028959: Client noderedcce58b912aac402b [172.21.0.3:50526] disconnected: not authorised.
+1793028959: New connection from 172.21.0.3:50528 on port 1883.
+1793028959: Client nodered967732d8e217e61b [172.21.0.3:50528] disconnected: not authorised.
+1793028974: New connection from 172.21.0.3:34350 on port 1883.
+1793028974: Client noderedcce58b912aac402b [172.21.0.3:34350] disconnected: not authorised.
+1793028974: New connection from 172.21.0.3:34364 on port 1883.
+1793028974: Client nodered967732d8e217e61b [172.21.0.3:34364] disconnected: not authorised.
+1793028989: New connection from 172.21.0.3:50680 on port 1883.
+1793028989: Client noderedcce58b912aac402b [172.21.0.3:50680] disconnected: not authorised.
+1793028989: New connection from 172.21.0.3:50686 on port 1883.
+1793028989: Client nodered967732d8e217e61b [172.21.0.3:50686] disconnected: not authorised.
+1793029004: New connection from 172.21.0.3:41848 on port 1883.
+1793029004: Client noderedcce58b912aac402b [172.21.0.3:41848] disconnected: not authorised.
+1793029004: New connection from 172.21.0.3:41864 on port 1883.
+1793029004: Client nodered967732d8e217e61b [172.21.0.3:41864] disconnected: not authorised.
+1793029019: New connection from 172.21.0.3:52574 on port 1883.
+1793029019: Client noderedcce58b912aac402b [172.21.0.3:52574] disconnected: not authorised.
+1793029019: New connection from 172.21.0.3:52578 on port 1883.
+1793029019: Client nodered967732d8e217e61b [172.21.0.3:52578] disconnected: not authorised.
+1793029034: New connection from 172.21.0.3:59930 on port 1883.
+1793029034: Client noderedcce58b912aac402b [172.21.0.3:59930] disconnected: not authorised.
+1793029034: New connection from 172.21.0.3:59936 on port 1883.
+1793029034: Client nodered967732d8e217e61b [172.21.0.3:59936] disconnected: not authorised.
+1793029049: New connection from 172.21.0.3:48924 on port 1883.
+1793029049: Client noderedcce58b912aac402b [172.21.0.3:48924] disconnected: not authorised.
+1793029049: New connection from 172.21.0.3:48932 on port 1883.
+1793029049: Client nodered967732d8e217e61b [172.21.0.3:48932] disconnected: not authorised.
+1793029064: New connection from 172.21.0.3:55910 on port 1883.
+1793029064: Client noderedcce58b912aac402b [172.21.0.3:55910] disconnected: not authorised.
+1793029064: New connection from 172.21.0.3:55912 on port 1883.
+1793029064: Client nodered967732d8e217e61b [172.21.0.3:55912] disconnected: not authorised.
+1793029079: New connection from 172.21.0.3:45534 on port 1883.
+1793029079: Client noderedcce58b912aac402b [172.21.0.3:45534] disconnected: not authorised.
+1793029079: New connection from 172.21.0.3:45540 on port 1883.
+1793029079: Client nodered967732d8e217e61b [172.21.0.3:45540] disconnected: not authorised.
+1793029094: New connection from 172.21.0.3:55454 on port 1883.
+1793029094: Client noderedcce58b912aac402b [172.21.0.3:55454] disconnected: not authorised.
+1793029094: New connection from 172.21.0.3:55456 on port 1883.
+1793029094: Client nodered967732d8e217e61b [172.21.0.3:55456] disconnected: not authorised.
+1793029109: New connection from 172.21.0.3:37890 on port 1883.
+1793029109: Client noderedcce58b912aac402b [172.21.0.3:37890] disconnected: not authorised.
+1793029109: New connection from 172.21.0.3:37904 on port 1883.
+1793029109: Client nodered967732d8e217e61b [172.21.0.3:37904] disconnected: not authorised.
+1793029124: New connection from 172.21.0.3:53268 on port 1883.
+1793029124: Client noderedcce58b912aac402b [172.21.0.3:53268] disconnected: not authorised.
+1793029124: New connection from 172.21.0.3:53280 on port 1883.
+1793029124: Client nodered967732d8e217e61b [172.21.0.3:53280] disconnected: not authorised.
+1793029139: New connection from 172.21.0.3:45668 on port 1883.
+1793029139: Client noderedcce58b912aac402b [172.21.0.3:45668] disconnected: not authorised.
+1793029139: New connection from 172.21.0.3:45674 on port 1883.
+1793029139: Client nodered967732d8e217e61b [172.21.0.3:45674] disconnected: not authorised.
+1793029155: New connection from 172.21.0.3:59014 on port 1883.
+1793029155: New connection from 172.21.0.3:59018 on port 1883.
+1793029155: Client noderedcce58b912aac402b [172.21.0.3:59014] disconnected: not authorised.
+1793029155: Client nodered967732d8e217e61b [172.21.0.3:59018] disconnected: not authorised.
+1793029170: New connection from 172.21.0.3:55698 on port 1883.
+1793029170: New connection from 172.21.0.3:55708 on port 1883.
+1793029170: Client noderedcce58b912aac402b [172.21.0.3:55698] disconnected: not authorised.
+1793029170: Client nodered967732d8e217e61b [172.21.0.3:55708] disconnected: not authorised.
+1793029185: New connection from 172.21.0.3:41044 on port 1883.
+1793029185: New connection from 172.21.0.3:41058 on port 1883.
+1793029185: Client noderedcce58b912aac402b [172.21.0.3:41044] disconnected: not authorised.
+1793029185: Client nodered967732d8e217e61b [172.21.0.3:41058] disconnected: not authorised.
+1793029200: New connection from 172.21.0.3:45922 on port 1883.
+1793029200: New connection from 172.21.0.3:45934 on port 1883.
+1793029200: Client noderedcce58b912aac402b [172.21.0.3:45922] disconnected: not authorised.
+1793029200: Client nodered967732d8e217e61b [172.21.0.3:45934] disconnected: not authorised.
+1793029215: New connection from 172.21.0.3:54658 on port 1883.
+1793029215: Client noderedcce58b912aac402b [172.21.0.3:54658] disconnected: not authorised.
+1793029215: New connection from 172.21.0.3:54664 on port 1883.
+1793029215: Client nodered967732d8e217e61b [172.21.0.3:54664] disconnected: not authorised.
+1793029230: New connection from 172.21.0.3:45966 on port 1883.
+1793029230: New connection from 172.21.0.3:45978 on port 1883.
+1793029230: Client noderedcce58b912aac402b [172.21.0.3:45966] disconnected: not authorised.
+1793029230: Client nodered967732d8e217e61b [172.21.0.3:45978] disconnected: not authorised.
+1793029245: New connection from 172.21.0.3:53818 on port 1883.
+1793029245: New connection from 172.21.0.3:53828 on port 1883.
+1793029245: Client noderedcce58b912aac402b [172.21.0.3:53818] disconnected: not authorised.
+1793029245: Client nodered967732d8e217e61b [172.21.0.3:53828] disconnected: not authorised.
+1793029260: New connection from 172.21.0.3:52406 on port 1883.
+1793029260: New connection from 172.21.0.3:52418 on port 1883.
+1793029260: Client noderedcce58b912aac402b [172.21.0.3:52406] disconnected: not authorised.
+1793029260: Client nodered967732d8e217e61b [172.21.0.3:52418] disconnected: not authorised.
+1793029275: New connection from 172.21.0.3:46082 on port 1883.
+1793029275: New connection from 172.21.0.3:46094 on port 1883.
+1793029275: Client noderedcce58b912aac402b [172.21.0.3:46082] disconnected: not authorised.
+1793029275: Client nodered967732d8e217e61b [172.21.0.3:46094] disconnected: not authorised.
+1793029290: New connection from 172.21.0.3:58592 on port 1883.
+1793029290: New connection from 172.21.0.3:58608 on port 1883.
+1793029290: Client nodered967732d8e217e61b [172.21.0.3:58592] disconnected: not authorised.
+1793029290: Client noderedcce58b912aac402b [172.21.0.3:58608] disconnected: not authorised.
+1793029305: New connection from 172.21.0.3:50672 on port 1883.
+1793029305: New connection from 172.21.0.3:50684 on port 1883.
+1793029305: Client nodered967732d8e217e61b [172.21.0.3:50672] disconnected: not authorised.
+1793029305: Client noderedcce58b912aac402b [172.21.0.3:50684] disconnected: not authorised.
+1793029320: New connection from 172.21.0.3:42864 on port 1883.
+1793029320: New connection from 172.21.0.3:42878 on port 1883.
+1793029320: Client nodered967732d8e217e61b [172.21.0.3:42864] disconnected: not authorised.
+1793029320: Client noderedcce58b912aac402b [172.21.0.3:42878] disconnected: not authorised.
+1793029335: New connection from 172.21.0.3:44030 on port 1883.
+1793029335: New connection from 172.21.0.3:44040 on port 1883.
+1793029335: Client nodered967732d8e217e61b [172.21.0.3:44030] disconnected: not authorised.
+1793029335: Client noderedcce58b912aac402b [172.21.0.3:44040] disconnected: not authorised.
+1793029350: New connection from 172.21.0.3:60296 on port 1883.
+1793029350: New connection from 172.21.0.3:60312 on port 1883.
+1793029350: Client nodered967732d8e217e61b [172.21.0.3:60296] disconnected: not authorised.
+1793029350: Client noderedcce58b912aac402b [172.21.0.3:60312] disconnected: not authorised.
+1793029365: New connection from 172.21.0.3:40138 on port 1883.
+1793029365: New connection from 172.21.0.3:40154 on port 1883.
+1793029365: Client nodered967732d8e217e61b [172.21.0.3:40138] disconnected: not authorised.
+1793029365: Client noderedcce58b912aac402b [172.21.0.3:40154] disconnected: not authorised.
+1793029373: New connection from 172.21.0.3:40938 on port 1883.
+1793029373: New connection from 172.21.0.3:40940 on port 1883.
+1793029373: New connection from 172.21.0.3:40944 on port 1883.
+1793029373: Client nodered24a3e7f96b8dbcce [172.21.0.3:40938] disconnected: not authorised.
+1793029373: New client connected from 172.21.0.3:40940 as nodered088bf339b7390a2f (p4, c1, k60, u'admin').
+1793029373: New client connected from 172.21.0.3:40944 as noderedf8777442caeda54e (p4, c1, k60, u'admin').
+1793029388: New connection from 172.21.0.3:53244 on port 1883.
+1793029388: Client nodered24a3e7f96b8dbcce [172.21.0.3:53244] disconnected: not authorised.
+1793029403: New connection from 172.21.0.3:39586 on port 1883.
+1793029403: Client nodered24a3e7f96b8dbcce [172.21.0.3:39586] disconnected: not authorised.
+1793029418: New connection from 172.21.0.3:38704 on port 1883.
+1793029418: Client nodered24a3e7f96b8dbcce [172.21.0.3:38704] disconnected: not authorised.
+1793029433: New connection from 172.21.0.3:45590 on port 1883.
+1793029433: Client nodered24a3e7f96b8dbcce [172.21.0.3:45590] disconnected: not authorised.
+1793029448: New connection from 172.21.0.3:50174 on port 1883.
+1793029448: Client nodered24a3e7f96b8dbcce [172.21.0.3:50174] disconnected: not authorised.
+1793029463: New connection from 172.21.0.3:36678 on port 1883.
+1793029463: Client nodered24a3e7f96b8dbcce [172.21.0.3:36678] disconnected: not authorised.
+1793029478: New connection from 172.21.0.3:36000 on port 1883.
+1793029478: Client nodered24a3e7f96b8dbcce [172.21.0.3:36000] disconnected: not authorised.
+1793029493: New connection from 172.21.0.3:45060 on port 1883.
+1793029493: Client nodered24a3e7f96b8dbcce [172.21.0.3:45060] disconnected: not authorised.
+1793029508: New connection from 172.21.0.3:37090 on port 1883.
+1793029508: Client nodered24a3e7f96b8dbcce [172.21.0.3:37090] disconnected: not authorised.
+1793029523: New connection from 172.21.0.3:41408 on port 1883.
+1793029523: Client nodered24a3e7f96b8dbcce [172.21.0.3:41408] disconnected: not authorised.
+1793029538: New connection from 172.21.0.3:33568 on port 1883.
+1793029538: Client nodered24a3e7f96b8dbcce [172.21.0.3:33568] disconnected: not authorised.
+1793029553: New connection from 172.21.0.3:38802 on port 1883.
+1793029553: Client nodered24a3e7f96b8dbcce [172.21.0.3:38802] disconnected: not authorised.
+1793029568: New connection from 172.21.0.3:38576 on port 1883.
+1793029568: Client nodered24a3e7f96b8dbcce [172.21.0.3:38576] disconnected: not authorised.
+1793029584: New connection from 172.21.0.3:34430 on port 1883.
+1793029584: Client nodered24a3e7f96b8dbcce [172.21.0.3:34430] disconnected: not authorised.
+1793029599: New connection from 172.21.0.3:51838 on port 1883.
+1793029599: Client nodered24a3e7f96b8dbcce [172.21.0.3:51838] disconnected: not authorised.
+1793029614: New connection from 172.21.0.3:33306 on port 1883.
+1793029614: Client nodered24a3e7f96b8dbcce [172.21.0.3:33306] disconnected: not authorised.
+1793029629: New connection from 172.21.0.3:43852 on port 1883.
+1793029629: Client nodered24a3e7f96b8dbcce [172.21.0.3:43852] disconnected: not authorised.
+1793029644: New connection from 172.21.0.3:41372 on port 1883.
+1793029644: Client nodered24a3e7f96b8dbcce [172.21.0.3:41372] disconnected: not authorised.
+1793029659: New connection from 172.21.0.3:55120 on port 1883.
+1793029659: Client nodered24a3e7f96b8dbcce [172.21.0.3:55120] disconnected: not authorised.
+1793029674: New connection from 172.21.0.3:51670 on port 1883.
+1793029674: Client nodered24a3e7f96b8dbcce [172.21.0.3:51670] disconnected: not authorised.
+1793029689: New connection from 172.21.0.3:38784 on port 1883.
+1793029689: Client nodered24a3e7f96b8dbcce [172.21.0.3:38784] disconnected: not authorised.
+1793029704: New connection from 172.21.0.3:54044 on port 1883.
+1793029704: Client nodered24a3e7f96b8dbcce [172.21.0.3:54044] disconnected: not authorised.
+1793029719: New connection from 172.21.0.3:41512 on port 1883.
+1793029719: Client nodered24a3e7f96b8dbcce [172.21.0.3:41512] disconnected: not authorised.
+1793029734: New connection from 172.21.0.3:47728 on port 1883.
+1793029734: Client nodered24a3e7f96b8dbcce [172.21.0.3:47728] disconnected: not authorised.
+1793029749: New connection from 172.21.0.3:41642 on port 1883.
+1793029749: Client nodered24a3e7f96b8dbcce [172.21.0.3:41642] disconnected: not authorised.
+1793029764: New connection from 172.21.0.3:41254 on port 1883.
+1793029764: Client nodered24a3e7f96b8dbcce [172.21.0.3:41254] disconnected: not authorised.
+1793029779: New connection from 172.21.0.3:56500 on port 1883.
+1793029779: Client nodered24a3e7f96b8dbcce [172.21.0.3:56500] disconnected: not authorised.
+1793029794: New connection from 172.21.0.3:53840 on port 1883.
+1793029794: Client nodered24a3e7f96b8dbcce [172.21.0.3:53840] disconnected: not authorised.
+1793029809: New connection from 172.21.0.3:48330 on port 1883.
+1793029809: Client nodered24a3e7f96b8dbcce [172.21.0.3:48330] disconnected: not authorised.
+1793029824: New connection from 172.21.0.3:50112 on port 1883.
+1793029824: Client nodered24a3e7f96b8dbcce [172.21.0.3:50112] disconnected: not authorised.
+1793029839: New connection from 172.21.0.3:50236 on port 1883.
+1793029839: Client nodered24a3e7f96b8dbcce [172.21.0.3:50236] disconnected: not authorised.
+1793029854: New connection from 172.21.0.3:44388 on port 1883.
+1793029854: Client nodered24a3e7f96b8dbcce [172.21.0.3:44388] disconnected: not authorised.
+1793029869: New connection from 172.21.0.3:50938 on port 1883.
+1793029869: Client nodered24a3e7f96b8dbcce [172.21.0.3:50938] disconnected: not authorised.
+1793029884: New connection from 172.21.0.3:44258 on port 1883.
+1793029884: Client nodered24a3e7f96b8dbcce [172.21.0.3:44258] disconnected: not authorised.
+1793029899: New connection from 172.21.0.3:45576 on port 1883.
+1793029899: Client nodered24a3e7f96b8dbcce [172.21.0.3:45576] disconnected: not authorised.
+1793029914: New connection from 172.21.0.3:56022 on port 1883.
+1793029914: Client nodered24a3e7f96b8dbcce [172.21.0.3:56022] disconnected: not authorised.
+1793029929: New connection from 172.21.0.3:45956 on port 1883.
+1793029929: Client nodered24a3e7f96b8dbcce [172.21.0.3:45956] disconnected: not authorised.
+1793029944: New connection from 172.21.0.3:39068 on port 1883.
+1793029944: Client nodered24a3e7f96b8dbcce [172.21.0.3:39068] disconnected: not authorised.
+1793029959: New connection from 172.21.0.3:52668 on port 1883.
+1793029959: Client nodered24a3e7f96b8dbcce [172.21.0.3:52668] disconnected: not authorised.
+1793029974: New connection from 172.21.0.3:36346 on port 1883.
+1793029974: Client nodered24a3e7f96b8dbcce [172.21.0.3:36346] disconnected: not authorised.
+1793029989: New connection from 172.21.0.3:47770 on port 1883.
+1793029989: Client nodered24a3e7f96b8dbcce [172.21.0.3:47770] disconnected: not authorised.
+1793030004: New connection from 172.21.0.3:47850 on port 1883.
+1793030004: Client nodered24a3e7f96b8dbcce [172.21.0.3:47850] disconnected: not authorised.
+1793030019: New connection from 172.21.0.3:52580 on port 1883.
+1793030019: Client nodered24a3e7f96b8dbcce [172.21.0.3:52580] disconnected: not authorised.
+1793030034: New connection from 172.21.0.3:58198 on port 1883.
+1793030034: Client nodered24a3e7f96b8dbcce [172.21.0.3:58198] disconnected: not authorised.
+1793030049: New connection from 172.21.0.3:43264 on port 1883.
+1793030049: Client nodered24a3e7f96b8dbcce [172.21.0.3:43264] disconnected: not authorised.
+1793030064: New connection from 172.21.0.3:42060 on port 1883.
+1793030064: Client nodered24a3e7f96b8dbcce [172.21.0.3:42060] disconnected: not authorised.
+1793030079: New connection from 172.21.0.3:60006 on port 1883.
+1793030079: Client nodered24a3e7f96b8dbcce [172.21.0.3:60006] disconnected: not authorised.
+1793030094: New connection from 172.21.0.3:35180 on port 1883.
+1793030094: Client nodered24a3e7f96b8dbcce [172.21.0.3:35180] disconnected: not authorised.
+1793030109: New connection from 172.21.0.3:41288 on port 1883.
+1793030109: Client nodered24a3e7f96b8dbcce [172.21.0.3:41288] disconnected: not authorised.
+1793030124: New connection from 172.21.0.3:34308 on port 1883.
+1793030124: Client nodered24a3e7f96b8dbcce [172.21.0.3:34308] disconnected: not authorised.
+1793030139: New connection from 172.21.0.3:59026 on port 1883.
+1793030139: Client nodered24a3e7f96b8dbcce [172.21.0.3:59026] disconnected: not authorised.
+1793030154: New connection from 172.21.0.3:47718 on port 1883.
+1793030154: Client nodered24a3e7f96b8dbcce [172.21.0.3:47718] disconnected: not authorised.
+1793030169: New connection from 172.21.0.3:55842 on port 1883.
+1793030169: Client nodered24a3e7f96b8dbcce [172.21.0.3:55842] disconnected: not authorised.
+1793030173: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1793030184: New connection from 172.21.0.3:58654 on port 1883.
+1793030184: Client nodered24a3e7f96b8dbcce [172.21.0.3:58654] disconnected: not authorised.
+1793030199: New connection from 172.21.0.3:42826 on port 1883.
+1793030199: Client nodered24a3e7f96b8dbcce [172.21.0.3:42826] disconnected: not authorised.
+1793030214: New connection from 172.21.0.3:53012 on port 1883.
+1793030214: Client nodered24a3e7f96b8dbcce [172.21.0.3:53012] disconnected: not authorised.
+1793030229: New connection from 172.21.0.3:48912 on port 1883.
+1793030229: Client nodered24a3e7f96b8dbcce [172.21.0.3:48912] disconnected: not authorised.
+1793030244: New connection from 172.21.0.3:39800 on port 1883.
+1793030244: Client nodered24a3e7f96b8dbcce [172.21.0.3:39800] disconnected: not authorised.
+1793030259: New connection from 172.21.0.3:33100 on port 1883.
+1793030259: Client nodered24a3e7f96b8dbcce [172.21.0.3:33100] disconnected: not authorised.
+1793030274: New connection from 172.21.0.3:53474 on port 1883.
+1793030274: Client nodered24a3e7f96b8dbcce [172.21.0.3:53474] disconnected: not authorised.
+1793030289: New connection from 172.21.0.3:47374 on port 1883.
+1793030289: Client nodered24a3e7f96b8dbcce [172.21.0.3:47374] disconnected: not authorised.
+1793030304: New connection from 172.21.0.3:35326 on port 1883.
+1793030304: Client nodered24a3e7f96b8dbcce [172.21.0.3:35326] disconnected: not authorised.
+1793030319: New connection from 172.21.0.3:59444 on port 1883.
+1793030319: Client nodered24a3e7f96b8dbcce [172.21.0.3:59444] disconnected: not authorised.
+1793030334: New connection from 172.21.0.3:59462 on port 1883.
+1793030334: Client nodered24a3e7f96b8dbcce [172.21.0.3:59462] disconnected: not authorised.
+1793030349: New connection from 172.21.0.3:33562 on port 1883.
+1793030349: Client nodered24a3e7f96b8dbcce [172.21.0.3:33562] disconnected: not authorised.
+1793030364: New connection from 172.21.0.3:38086 on port 1883.
+1793030364: Client nodered24a3e7f96b8dbcce [172.21.0.3:38086] disconnected: not authorised.
+1793030379: New connection from 172.21.0.3:51786 on port 1883.
+1793030379: Client nodered24a3e7f96b8dbcce [172.21.0.3:51786] disconnected: not authorised.
+1793030394: New connection from 172.21.0.3:48090 on port 1883.
+1793030394: Client nodered24a3e7f96b8dbcce [172.21.0.3:48090] disconnected: not authorised.
+1793030409: New connection from 172.21.0.3:60806 on port 1883.
+1793030409: Client nodered24a3e7f96b8dbcce [172.21.0.3:60806] disconnected: not authorised.
+1793030424: New connection from 172.21.0.3:48052 on port 1883.
+1793030424: Client nodered24a3e7f96b8dbcce [172.21.0.3:48052] disconnected: not authorised.
+1793030439: New connection from 172.21.0.3:53072 on port 1883.
+1793030439: Client nodered24a3e7f96b8dbcce [172.21.0.3:53072] disconnected: not authorised.
+1793030454: New connection from 172.21.0.3:54842 on port 1883.
+1793030454: Client nodered24a3e7f96b8dbcce [172.21.0.3:54842] disconnected: not authorised.
+1793030469: New connection from 172.21.0.3:53478 on port 1883.
+1793030470: Client nodered24a3e7f96b8dbcce [172.21.0.3:53478] disconnected: not authorised.
+1793030485: New connection from 172.21.0.3:36552 on port 1883.
+1793030485: Client nodered24a3e7f96b8dbcce [172.21.0.3:36552] disconnected: not authorised.
+1793030500: New connection from 172.21.0.3:54618 on port 1883.
+1793030500: Client nodered24a3e7f96b8dbcce [172.21.0.3:54618] disconnected: not authorised.
+1793030515: New connection from 172.21.0.3:40252 on port 1883.
+1793030515: Client nodered24a3e7f96b8dbcce [172.21.0.3:40252] disconnected: not authorised.
+1793030530: New connection from 172.21.0.3:48836 on port 1883.
+1793030530: Client nodered24a3e7f96b8dbcce [172.21.0.3:48836] disconnected: not authorised.
+1793030545: New connection from 172.21.0.3:55850 on port 1883.
+1793030545: Client nodered24a3e7f96b8dbcce [172.21.0.3:55850] disconnected: not authorised.
+1793030560: New connection from 172.21.0.3:58458 on port 1883.
+1793030560: Client nodered24a3e7f96b8dbcce [172.21.0.3:58458] disconnected: not authorised.
+1793030575: New connection from 172.21.0.3:50600 on port 1883.
+1793030575: Client nodered24a3e7f96b8dbcce [172.21.0.3:50600] disconnected: not authorised.
+1793030590: New connection from 172.21.0.3:46544 on port 1883.
+1793030590: Client nodered24a3e7f96b8dbcce [172.21.0.3:46544] disconnected: not authorised.
+1793030605: New connection from 172.21.0.3:35738 on port 1883.
+1793030605: Client nodered24a3e7f96b8dbcce [172.21.0.3:35738] disconnected: not authorised.
+1793030620: New connection from 172.21.0.3:37586 on port 1883.
+1793030620: Client nodered24a3e7f96b8dbcce [172.21.0.3:37586] disconnected: not authorised.
+1793030621: New connection from 172.21.0.1:48250 on port 1883.
+1793030621: Client ESP8266_Local_Node01 [172.21.0.1:59516] disconnected: session taken over.
+1793030621: New client connected from 172.21.0.1:48250 as ESP8266_Local_Node01 (p4, c1, k15, u'admin').
+1793030635: New connection from 172.21.0.3:38248 on port 1883.
+1793030635: Client nodered24a3e7f96b8dbcce [172.21.0.3:38248] disconnected: not authorised.
+1793030650: New connection from 172.21.0.3:36296 on port 1883.
+1793030650: Client nodered24a3e7f96b8dbcce [172.21.0.3:36296] disconnected: not authorised.
+1793030665: New connection from 172.21.0.3:55130 on port 1883.
+1793030665: Client nodered24a3e7f96b8dbcce [172.21.0.3:55130] disconnected: not authorised.
+1793030680: New connection from 172.21.0.3:38206 on port 1883.
+1793030680: Client nodered24a3e7f96b8dbcce [172.21.0.3:38206] disconnected: not authorised.
+1793030695: New connection from 172.21.0.3:50880 on port 1883.
+1793030695: Client nodered24a3e7f96b8dbcce [172.21.0.3:50880] disconnected: not authorised.
+1793030700: New connection from 172.21.0.1:40282 on port 1883.
+1793030700: Client auto-A1C96E3A-CFF9-18E2-F903-A58815B7DE59 [172.21.0.1:40282] disconnected: not authorised.
+1793030710: New connection from 172.21.0.3:58908 on port 1883.
+1793030710: Client nodered24a3e7f96b8dbcce [172.21.0.3:58908] disconnected: not authorised.
+1793030725: New connection from 172.21.0.3:43708 on port 1883.
+1793030725: Client nodered24a3e7f96b8dbcce [172.21.0.3:43708] disconnected: not authorised.
+1793030740: New connection from 172.21.0.3:43092 on port 1883.
+1793030740: Client nodered24a3e7f96b8dbcce [172.21.0.3:43092] disconnected: not authorised.
+1793030755: New connection from 172.21.0.3:46470 on port 1883.
+1793030755: Client nodered24a3e7f96b8dbcce [172.21.0.3:46470] disconnected: not authorised.
+1793030770: New connection from 172.21.0.3:47236 on port 1883.
+1793030770: Client nodered24a3e7f96b8dbcce [172.21.0.3:47236] disconnected: not authorised.
+1793030785: New connection from 172.21.0.3:57180 on port 1883.
+1793030785: Client nodered24a3e7f96b8dbcce [172.21.0.3:57180] disconnected: not authorised.
+1793030800: New connection from 172.21.0.3:44552 on port 1883.
+1793030800: Client nodered24a3e7f96b8dbcce [172.21.0.3:44552] disconnected: not authorised.
+1793030815: New connection from 172.21.0.3:59338 on port 1883.
+1793030815: Client nodered24a3e7f96b8dbcce [172.21.0.3:59338] disconnected: not authorised.
+1793030830: New connection from 172.21.0.3:45118 on port 1883.
+1793030830: Client nodered24a3e7f96b8dbcce [172.21.0.3:45118] disconnected: not authorised.
+1793030845: New connection from 172.21.0.3:48278 on port 1883.
+1793030845: Client nodered24a3e7f96b8dbcce [172.21.0.3:48278] disconnected: not authorised.
+1793030860: New connection from 172.21.0.3:38744 on port 1883.
+1793030860: Client nodered24a3e7f96b8dbcce [172.21.0.3:38744] disconnected: not authorised.
+1793030875: New connection from 172.21.0.3:38244 on port 1883.
+1793030875: Client nodered24a3e7f96b8dbcce [172.21.0.3:38244] disconnected: not authorised.
+1793030890: New connection from 172.21.0.3:33720 on port 1883.
+1793030890: Client nodered24a3e7f96b8dbcce [172.21.0.3:33720] disconnected: not authorised.
+1793030905: New connection from 172.21.0.3:40656 on port 1883.
+1793030905: Client nodered24a3e7f96b8dbcce [172.21.0.3:40656] disconnected: not authorised.
+1793030920: New connection from 172.21.0.3:54690 on port 1883.
+1793030920: Client nodered24a3e7f96b8dbcce [172.21.0.3:54690] disconnected: not authorised.
+1793030935: New connection from 172.21.0.3:56472 on port 1883.
+1793030935: Client nodered24a3e7f96b8dbcce [172.21.0.3:56472] disconnected: not authorised.
+1793030950: New connection from 172.21.0.3:53454 on port 1883.
+1793030950: Client nodered24a3e7f96b8dbcce [172.21.0.3:53454] disconnected: not authorised.
+1793030965: New connection from 172.21.0.3:44166 on port 1883.
+1793030965: Client nodered24a3e7f96b8dbcce [172.21.0.3:44166] disconnected: not authorised.
+1793030980: New connection from 172.21.0.3:33046 on port 1883.
+1793030980: Client nodered24a3e7f96b8dbcce [172.21.0.3:33046] disconnected: not authorised.
+1793030995: New connection from 172.21.0.3:43002 on port 1883.
+1793030995: Client nodered24a3e7f96b8dbcce [172.21.0.3:43002] disconnected: not authorised.
+1793031010: New connection from 172.21.0.3:38678 on port 1883.
+1793031010: Client nodered24a3e7f96b8dbcce [172.21.0.3:38678] disconnected: not authorised.
+1793031019: Client ESP8266_Local_Node01 [172.21.0.1:48250] disconnected: exceeded timeout.
+1793031025: New connection from 172.21.0.3:53848 on port 1883.
+1793031025: Client nodered24a3e7f96b8dbcce [172.21.0.3:53848] disconnected: not authorised.
+1793031040: New connection from 172.21.0.3:48146 on port 1883.
+1793031040: Client nodered24a3e7f96b8dbcce [172.21.0.3:48146] disconnected: not authorised.
+1793031055: New connection from 172.21.0.3:35348 on port 1883.
+1793031055: Client nodered24a3e7f96b8dbcce [172.21.0.3:35348] disconnected: not authorised.
+1793031070: New connection from 172.21.0.3:57028 on port 1883.
+1793031070: Client nodered24a3e7f96b8dbcce [172.21.0.3:57028] disconnected: not authorised.
+1793031085: New connection from 172.21.0.3:41884 on port 1883.
+1793031085: Client nodered24a3e7f96b8dbcce [172.21.0.3:41884] disconnected: not authorised.
+1793031100: New connection from 172.21.0.3:46054 on port 1883.
+1793031100: Client nodered24a3e7f96b8dbcce [172.21.0.3:46054] disconnected: not authorised.
+1793031115: New connection from 172.21.0.3:40100 on port 1883.
+1793031115: Client nodered24a3e7f96b8dbcce [172.21.0.3:40100] disconnected: not authorised.
+1793031130: New connection from 172.21.0.3:43300 on port 1883.
+1793031130: Client nodered24a3e7f96b8dbcce [172.21.0.3:43300] disconnected: not authorised.
+1793031145: New connection from 172.21.0.3:39416 on port 1883.
+1793031145: Client nodered24a3e7f96b8dbcce [172.21.0.3:39416] disconnected: not authorised.
+1793031160: New connection from 172.21.0.3:43792 on port 1883.
+1793031160: Client nodered24a3e7f96b8dbcce [172.21.0.3:43792] disconnected: not authorised.
+1793031175: New connection from 172.21.0.3:53216 on port 1883.
+1793031175: Client nodered24a3e7f96b8dbcce [172.21.0.3:53216] disconnected: not authorised.
+1793031190: New connection from 172.21.0.3:55908 on port 1883.
+1793031190: Client nodered24a3e7f96b8dbcce [172.21.0.3:55908] disconnected: not authorised.

@@ -1,0 +1,319 @@
+[
+    {
+        "id": "d9f858371b8e68d5",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0731ab6f8e9bb1f5",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "mqtt",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "30f63139c4eb8be0",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "mqtt",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "4c0bf86c58e2145b",
+        "type": "mqtt-broker",
+        "name": "Mosquitto Local",
+        "broker": "mqtt",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "5fcc6616ee51b20b",
+        "type": "mqtt in",
+        "z": "d9f858371b8e68d5",
+        "name": "",
+        "topic": "sensorIoT01",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "30f63139c4eb8be0",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 210,
+        "y": 120,
+        "wires": [
+            [
+                "aa2166b001820e58"
+            ]
+        ]
+    },
+    {
+        "id": "aa2166b001820e58",
+        "type": "debug",
+        "z": "d9f858371b8e68d5",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 420,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "f571f91c18acf7f9",
+        "type": "mqtt in",
+        "z": "d9f858371b8e68d5",
+        "name": "",
+        "topic": "kampus/labiot/telemetri",
+        "qos": "2",
+        "datatype": "json",
+        "broker": "4c0bf86c58e2145b",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 260,
+        "y": 320,
+        "wires": [
+            [
+                "22f8bfece54d981b"
+            ]
+        ]
+    },
+    {
+        "id": "22f8bfece54d981b",
+        "type": "debug",
+        "z": "d9f858371b8e68d5",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 460,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "c5211841944cd856",
+        "type": "mqtt in",
+        "z": "d9f858371b8e68d5",
+        "name": "",
+        "topic": "kampus/labiot/telemetri",
+        "qos": "2",
+        "datatype": "json",
+        "broker": "4c0bf86c58e2145b",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 220,
+        "y": 700,
+        "wires": [
+            [
+                "c4c27693d9097f29"
+            ]
+        ]
+    },
+    {
+        "id": "5e100499de321390",
+        "type": "switch",
+        "z": "d9f858371b8e68d5",
+        "name": "",
+        "property": "payload.suhu",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "31",
+                "vt": "num"
+            },
+            {
+                "t": "lte",
+                "v": "31",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 390,
+        "y": 520,
+        "wires": [
+            [
+                "5c33c30056e446d4"
+            ],
+            [
+                "2842cadc15ee2d62"
+            ]
+        ]
+    },
+    {
+        "id": "5c33c30056e446d4",
+        "type": "change",
+        "z": "d9f858371b8e68d5",
+        "name": "Nyalakan LED Indikator",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{   \"led\": 1 }",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 590,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2842cadc15ee2d62",
+        "type": "change",
+        "z": "d9f858371b8e68d5",
+        "name": "Padamkan LED Indikator",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{   \"led\": 0}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 590,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e1055d8880a7b557",
+        "type": "mqtt out",
+        "z": "d9f858371b8e68d5",
+        "name": "",
+        "topic": "kampus/labiot/kendali",
+        "qos": "0",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "4c0bf86c58e2145b",
+        "x": 720,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "c4c27693d9097f29",
+        "type": "function",
+        "z": "d9f858371b8e68d5",
+        "name": "function 1",
+        "func": "let temp = msg.payload.suhu;\nlet currentState = context.get('ledState') || 0;\n\n// Logika Histeresis\nif (temp > 31.5) {\n    currentState = 1; // Nyalakan LED jika suhu melebihi batas atas kritis\n} else if (temp < 30.0) {\n    currentState = 0; // Padamkan LED jika suhu mendingin di bawah batas bawah aman\n}\n\ncontext.set('ledState', currentState);\nmsg.payload = { \"led\": currentState };\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 700,
+        "wires": [
+            [
+                "e1055d8880a7b557"
+            ]
+        ]
+    }
+]
